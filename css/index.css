@@ -2,7 +2,7 @@
     position: bottom;
     width: 100%; 
     height: 400px; 
-    background-image: url('images/index/entrenador.jpg'); 
+    background-image: url('../images/index/entrenador.jpg'); 
     background-size: cover;
     background-position: 0px -150px ;
     display: flex;
@@ -101,7 +101,7 @@
     position: bottom;
     width: 100%; 
     height: 400px; 
-    background-image: url('./images/index/gim1.jpg'); 
+    background-image: url('../images/index/gim1.jpg'); 
     background-size: cover;
     background-position: 0px -180px ;
     display: flex;
