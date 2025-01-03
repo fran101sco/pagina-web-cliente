@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Powerzone - Contacto</title>
+    <link rel="icon" href="/images/logo/logo.png">    
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/contacto.css">
+</head>
+<body>
+    <header>
+        <ul class="nav-links">
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li class="logo"><img src="/images/logo/logo.png" alt="Logo de la empresa"></li>
+            <li><a href="presupuesto.html">Presupuesto</a></li>
+            <li><a href="contacto.html" class="active">Contacto</a></li>
+        </ul>  
+    </header>
+
+    <main>
+        <section class="contact">
+            <h2>Contáctanos</h2>
+            <p><strong>Dirección:</strong> Calle Salitre 44, Malaga</p>
+            <p><strong>Teléfono:</strong> +34 123 456 789</p>
+            <p><strong>Email:</strong> Powerzone@empresa.com</p>
+        </section>
+
+        <section>
+            <h3>Introduzca su ubicacion para marcar una ruta</h3>
+            <input type="text" id="ubicacionCliente" placeholder="Introduce tu ubicación">
+            <button onclick="calcularRuta()">Calcular Ruta</button>
+        </section>
+
+        <section class="map-container">
+            <h2>Ubicación</h2>
+            <div id="map"></div>
+        </section>
+    </main>
+
+    <footer id="page-footer">
+        <div class="footer-section" id="social-media">
+            <h3>Redes Sociales</h3>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="/images/logo/facebook.svg" alt="Facebook"> Facebook
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <img src="/images/logo/twitter.svg" alt="Twitter"> Twitter
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="/images/logo/instagram.svg" alt="Instagram"> Instagram
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-section" id="legal-notice">
+            <h3>Aviso Legal</h3>
+            <p>Todos los derechos reservados. Consulta nuestros términos y condiciones.</p>
+        </div>
+        <div class="footer-section" id="address">
+            <h3>Dirección</h3>
+            <p>Calle Falsa 123, Ciudad, País</p>
+        </div>
+    </footer>
+
+    <script src="/js/mapa.js"></script>
+    <script async 
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBw_-b_xeMkIbUGSpa4__Wr-MYtf5c8XK4&callback=initMap"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+    "noticias": [
+        {
+            "titulo": "Nueva clase de Crossfit disponible",
+            "contenido": "A partir del próximo lunes, comenzaremos nuestras clases de Crossfit en el gimnasio."
+        },
+        {
+            "titulo": "Concurso de levantamiento de pesas",
+            "contenido": "Participa en nuestro concurso anual de levantamiento de pesas. Grandes premios en juego."
+        },
+        {
+            "titulo": "Promociones especiales en membresías",
+            "contenido": "Aprovecha nuestras ofertas especiales en membresías durante este mes."
+        }
+    ]
+}
